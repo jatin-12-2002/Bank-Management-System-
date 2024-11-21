@@ -40,30 +40,31 @@ Remove a customer’s account details from the system.
     - Member Functions
     - Basic Data Validation
 - Headers Used:
-    - <iostream> for input and output operations.
-    - <iomanip> for formatting output.
-    - <fstream> for file handling.
-    - <string.h> for string manipulation.
+    - `<iostream>` for input and output operations.
+    - `<iomanip>` for formatting output.
+    - `<fstream>` for file handling.
+    - `<string.h>` for string manipulation.
 
 ## How to Run
 1) Setup:
 
 - Ensure a C++ compiler (like GCC or Turbo C++) is installed.
-- Place the source code in a .cpp file.
+- Place the source code in a **.cpp** file.
 
 2) Compile:
 
-- Use the command: g++ -o bank_management_system bank_management_system.cpp
-(Replace bank_management_system.cpp with the actual filename.)
+- Use the command: **g++ -o bank_management_system bank_management_system.cpp**
+
+    (Replace **bank_management_system.cpp** with the actual filename.)
 
 3) Run:
 
-- Execute the compiled file: ./bank_management_system
+- Execute the compiled file: **./bank_management_system**
 - Follow the instructions on the console.
 
 4) Data Files:
 
-- Customer data is saved in a binary file named bank.txt. Ensure this file is accessible in the same directory as the executable.
+- Customer data is saved in a binary file named **bank.txt**. Ensure this file is accessible in the same directory as the executable.
 
 ## Menu Options
 Upon running the program, the following menu is displayed:
